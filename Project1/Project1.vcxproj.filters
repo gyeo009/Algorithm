@@ -51,7 +51,22 @@
     <ClCompile Include="0x08_10799_스택응용_수식쌍_응용문제_.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0x08_2504.cpp">
+    <ClCompile Include="0x08_2504_unsol.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x09_BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x09_1926.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x09_7576.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x09_1697.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

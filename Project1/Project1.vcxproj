@@ -138,9 +138,14 @@
     <ClCompile Include="0x07_10866.cpp" />
     <ClCompile Include="0x07_Deque.cpp" />
     <ClCompile Include="0x08_10799_스택응용_수식쌍_응용문제_.cpp" />
-    <ClCompile Include="0x08_2504.cpp" />
+    <ClCompile Include="0x08_2504_unsol.cpp" />
     <ClCompile Include="0x08_application_of_stack_4949.cpp" />
+    <ClCompile Include="0x09_1697.cpp" />
+    <ClCompile Include="0x09_1926.cpp" />
+    <ClCompile Include="0x09_7576.cpp" />
+    <ClCompile Include="0x09_BFS.cpp" />
     <ClCompile Include="basic_alog_lec_0x03.cpp" />
+    <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
