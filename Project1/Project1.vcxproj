@@ -144,8 +144,12 @@
     <ClCompile Include="0x09_1926.cpp" />
     <ClCompile Include="0x09_7576.cpp" />
     <ClCompile Include="0x09_BFS.cpp" />
+    <ClCompile Include="1068_트리_unsolved.cpp" />
+    <ClCompile Include="1174_줄어드는 수.cpp" />
+    <ClCompile Include="1225_이상한 곱셈.cpp" />
+    <ClCompile Include="4375_1.cpp" />
     <ClCompile Include="basic_alog_lec_0x03.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="0x09_BFS_2178.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

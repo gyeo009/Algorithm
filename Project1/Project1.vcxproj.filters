@@ -66,7 +66,19 @@
     <ClCompile Include="0x09_1697.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="0x09_BFS_2178.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1225_이상한 곱셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4375_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1068_트리_unsolved.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1174_줄어드는 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
