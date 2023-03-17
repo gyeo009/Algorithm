@@ -1,43 +1,53 @@
 //#include <bits/stdc++.h>
 //using namespace std;
 //
-//#define X first
-//#define Y second
-//int board[502][502] = {};
-//bool visit[502][502];
-//int n = 7, m = 10;
+//int board[500][500] = {};
+//bool visited[500][500];
 //int dx[4] = { 1, 0, -1, 0 };
 //int dy[4] = { 0, 1, 0, -1 };
+//int n, m, tmp, cnt = 0, MAX = 0;
+//queue<pair<int, int>> q;
+//
+//void bfs(int a, int b) {
+//	int size = 0;
+//	q.push({ a,b });
+//	visited[a][b] = 1;
+//	while (!q.empty()) {
+//		pair<int, int> cur = q.front(); q.pop(); size++;
+//		int nx, ny;
+//		for (int i = 0; i < 4; i++) {
+//			nx = cur.first + dx[i];
+//			ny = cur.second + dy[i];
+//			if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+//			if (board[nx][ny] == 1 && visited[nx][ny] == 0) {
+//				q.push({ nx, ny });
+//				visited[nx][ny] = 1;
+//			}
+//		}
+//	}
+//	if(MAX < size) MAX = size;
+//	cnt++;
+//}
 //
 //int main(void) {
-//	/*pair<int, int> p1 = make_pair(10, 13);
-//	pair<int, int> p2 = make_pair(4, 6);
-//	cout << p1.first << ' ' << p1.second << '\n';
-//	if (p2 < p1) cout << "p2 < p1";*/
 //	ios::sync_with_stdio(0);
 //	cin.tie(0);
-//	queue<pair<int, int>> Q;
-//	visit[0][0] = 1;
-//	Q.push({ 0,0 });
 //	
-//	while (!Q.empty()) {
-//		pair<int, int> cur = Q.front();
-//		cout << '(' << cur.X << ', ' << cur.Y << ") -> " << '\n';
-//		for (int dir = 0; dir < 4; dir++) {
-//			int nx = cur.X + dx[dir];
-//			int ny = cur.Y + dy[dir];
-//			// dir == 0 : 우로 한칸
-//			// dir == 1 : 위로 한칸
-//			// dir == 2 : 좌로 한칸
-//			// dir == 3 : 아래로 한칸
-//			if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue; //맵 밖으로 넘어갈때 걍 넘어가기
-//			if (visit[nx][ny] || board[nx][ny] != 1) continue; // 방문했을때 넘어가기
-//			visit[nx][ny] = 1;
-//			Q.push({ nx, ny });
+//	cin >> n >> m;
+//	
+//
+//	for (int i = 0; i < n; i++) {
+//		for (int j = 0; j < m; j++) {
+//			cin >> tmp;
+//			board[i][j] = tmp;
 //		}
-//
+//	}	
+//	for (int i = 0; i < n; i++) {
+//		for (int j = 0; j < m; j++) {
+//			if (board[i][j] == 1 && visited[i][j] == 0) bfs(i, j);
+//		}
 //	}
+//	cout << cnt << '\n' << MAX;
 //
-//
-//
+//	return 0;
 //}

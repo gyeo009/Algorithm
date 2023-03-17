@@ -1,50 +1,41 @@
 //#include <bits/stdc++.h>
 //using namespace std;
-//int paint[500][500] = {};
-//int vis[500][500] = {};
-//int moveX[4] = { 1, -1, 0, 0 };
-//int moveY[4] = { 0, 0, 1, -1 };
 //
+//string maze[100];
+//int dist[100][100];
+//int dx[4] = { 1, 0 ,-1, 0 };
+//int dy[4] = { 0, 1 ,0, -1 };
+//int n, m;
+//queue<pair<int, int>> q;
 //
-//int main() {
-//	int x, y; cin >> x >> y;
-//	for (int i = 0; i < x; i++) {
-//		for (int j = 0; j < y; j++) {
-//			cin >> paint[i][j];
-//		}
-//	}
-//
-//	int numPaint = 0;
-//	int max = 0;
-//
-//	for (int i = 0; i < x; i++) {
-//		for (int j = 0; j < y; j++) {
-//			if (paint[i][j] == 1 && vis[i][j] == 0) {
-//				numPaint++;
-//				queue<pair<int, int>> q;
-//				vis[i][j] = 1;
-//				q.push({ i, j });
-//				int area = 0;
-//				while (!q.empty()) {
-//					area++;
-//					pair<int, int> p = q.front(); q.pop();
-//					for (int k = 0; k < 4; k++) {
-//						int nx = p.first + moveX[k];
-//						int ny = p.second + moveY[k];
-//						if (nx - 1 > 500 && nx - 1 < 0 && ny - 1 > 500 && ny - 1 < 0) continue;
-//						if (!vis[nx][ny] && paint[nx][ny] == 1) {
-//							vis[nx][ny] = 1;
-//							q.push({ nx, ny });
-//						}
-//					}
-//				}
-//				if (area > max) max = area;
+//void bfs() {
+//	q.push({ 0,0 });
+//	dist[0][0] = 1;
+//	while (!q.empty()) {
+//		pair<int, int> cur = q.front(); q.pop();
+//		int nx, ny;
+//		for (int i = 0; i < 4; i++) {
+//			nx = cur.first + dx[i];
+//			ny = cur.second + dy[i];
+//			if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+//			if (dist[nx][ny] == -1 && maze[nx][ny] == '1') {
+//				dist[nx][ny] = dist[cur.first][cur.second] + 1;
+//				q.push({ nx, ny });
 //			}
 //		}
 //	}
+//}
 //
-//
-//	cout << numPaint << '\n' << max;
+//int main() {
+//	ios::sync_with_stdio(0);
+//	cin.tie(0);
+//	cin >> n >> m;
+//	for (int i = 0; i < n; i++) {
+//		cin >> maze[i];
+//	}
+//	for (int i = 0; i < n; i++) fill(dist[i], dist[i] + m, -1);
+//	bfs();
+//	cout << dist[n - 1][m - 1];
 //
 //	return 0;
 //}

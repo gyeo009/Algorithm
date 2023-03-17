@@ -60,10 +60,10 @@
     <ClCompile Include="0x09_1926.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0x09_7576.cpp">
+    <ClCompile Include="0x09_BFS_7576_토마토.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0x09_1697.cpp">
+    <ClCompile Include="0x09_1697_숨바꼭질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0x09_BFS_2178.cpp">
@@ -79,6 +79,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1174_줄어드는 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x09_4149_불!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0A_DFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0B_재귀_1629_곱셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0B_11729_하노이 탑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
