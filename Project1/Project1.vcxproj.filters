@@ -96,5 +96,17 @@
     <ClCompile Include="0x0B_1074_Z.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0x0C_백트래킹_N과 M%281%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0C_9663_N-Queen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0C_1182_부분수열의_합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0x0D_15683_감시.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
