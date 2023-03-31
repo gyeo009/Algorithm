@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include=".cpp" />
     <ClCompile Include="0x03_10808.cpp" />
     <ClCompile Include="0x04_LL.cpp" />
     <ClCompile Include="0x04_STL_list.cpp" />
@@ -152,7 +153,12 @@
     <ClCompile Include="0x0C_1182_부분수열의_합.cpp" />
     <ClCompile Include="0x0C_9663_N-Queen.cpp" />
     <ClCompile Include="0x0C_백트래킹_N과 M%281%29.cpp" />
+    <ClCompile Include="0x0D_12100_2048%28Easy%29.cpp" />
     <ClCompile Include="0x0D_15683_감시.cpp" />
+    <ClCompile Include="0x0D_15686_치킨_배달.cpp" />
+    <ClCompile Include="0x0D_18808_스티커_붙이기.cpp" />
+    <ClCompile Include="0x0E_11729_배열_합치기.cpp" />
+    <ClCompile Include="0x0E_정렬I_merge_sort.cpp" />
     <ClCompile Include="1068_트리_unsolved.cpp" />
     <ClCompile Include="1174_줄어드는 수.cpp" />
     <ClCompile Include="1225_이상한 곱셈.cpp" />
